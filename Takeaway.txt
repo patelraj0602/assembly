@@ -1,0 +1,7 @@
+1. You cannot use mov instruction to move from one memory location to another memory location. There has to be atleast 1 register.
+2. While appling any operations like subtration,addition,mov make sure to specify the operator size for the operand which are fetched from the memory.
+3. For add,sub,mov,cmp instructions you cannont have both memory operands.
+4. For add,sub,mov,cmp both the operands should be of same size.
+5. If you want to move content of 8 bit register to 16 bit register then we have to use movzx
+6. typecasting: example if we intialize a variable as word. Then we can typecast it(for mov or add instuctions) to smaller sizes only in this case byte but we can never typecast it into bigger sizes like dword,qword. This is throw garbage values.
+
